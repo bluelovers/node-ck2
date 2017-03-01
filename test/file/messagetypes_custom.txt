@@ -1,0 +1,4292 @@
+checksum=128807170
+MESSAGE_INTEREST =
+{
+	vassals=1
+	dynasty=1
+	independent_rulers=0
+	liege=2
+}
+PROV_CULTURECHANGE=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PROV_RELIGIONCHANGE=
+{
+	option=no
+	category="cat_religion"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EXILE_TO_PLAYER=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EXILE_FROM_PLAYER=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISBAND=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound="disband_unit"
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VASSAL_TRANSFER=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PLAYER_SUCCESSOR_CHANGED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCILLOR_LOST=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VOTER_LOST=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+GUARDIAN_LOST=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_guardian"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SUCCESSION=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_death"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=yes
+}
+LOSTVASSAL=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_courier"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NOMINATION=
+{
+	option=no
+	category="cat_government"
+	close_priority=4
+	interest_priority=4
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OBJECTIVEACHIEVED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_feast"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PLOTSUCCEEDS=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_shadowy_cabal"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OBJECTIVEACQUIRED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=4
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OBJECTIVEABORTED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=4
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PLOT_UNCOVERED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+AUTO_STOPPED_PLOT=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+AUTO_STOP_PLOT_START=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+MINOR_PLOT_UNCOVERED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NEWBORN=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound="child_born"
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_birth"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NEWBORN_PURPLE=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound="child_born"
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_born_purple_byzantine"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+BUILDING_DONE=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound="building_completed"
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRIGMOD=
+{
+	option=no
+	category="cat_other"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRIGMODLOST=
+{
+	option=no
+	category="cat_other"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ATTACKTHEM=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ATTACKUS=
+{
+	option=no
+	category="cat_military"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGETHEM=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGEUS=
+{
+	option=no
+	category="cat_military"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LANDBATTLEOVER_WIN=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound="battle_won"
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LANDBATTLEOVER_LOSS=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound="battle_lost"
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LANDBATTLEOVER_OTHER=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGEOVER_WIN=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_siege"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGEOVER_LOSS=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_siege"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGEOVER_OTHER=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SIEGEOVER_ABANDON=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_siege"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHATMESSAGE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_EDUCATED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_guardian"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+APPOINTREGENT=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISMISSREGENT=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+UNITARRIVED=
+{
+	option=no
+	category="cat_military"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LAW_APPROVED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LAW_REJECTED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LAW_PASSED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=3
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LAW_COUNCIL_REJECTED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=4
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+IMPRISON_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RELEASE_FROM_PRISON_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EXECUTE_IMPRISONED_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EXILE_IMPRISONED_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RETIRE_TO_MONASTERY_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+INVITE_TO_COURT_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+INVITE_TO_COURT_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRANSFER_VASSAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CLAIM_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REVOKE_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REVOKE_TITLE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+AWARD_HONORARY_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SEND_ASSASSIN_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DECLARE_WAR_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_peasants"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=yes
+}
+OFFER_PEACE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=yes
+}
+OFFER_PEACE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SEND_GIFT_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SEND_GIFT_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_MONEY_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_MONEY_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NOMINATE_BISHOP_TO_POPE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NOMINATE_BISHOP_TO_POPE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_VASSALIZATION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_VASSALIZATION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_VASSALIZATION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ARRANGE_BETROTHAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ARRANGE_BETROTHAL_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+BREAK_BETROTHAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_MARRIGE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OFFER_MARRIGE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RANSOM_CHARACTER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RANSOM_CHARACTER_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EDUCATE_CHARACTER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+EDUCATE_CHARACTER_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ABANDON_AMBITION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ABANDON_AMBITION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STOP_BACKING_AMBITION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STOP_BACKING_AMBITION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+JOIN_AMBITION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+JOIN_AMBITION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+GRANT_LANDED_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+GRANT_VICE_ROYALTY_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLE_ADVENTURER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLE_ADVENTURER_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+APPOINT_TO_OFFICE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+APPOINT_TO_OFFICE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+APPOINT_COMMANDER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+APPOINT_COMMANDER_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RESIGN_COMMANDER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RESIGN_AS_COMMANDER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASSIGN_VOTER_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASSIGN_VOTER_TITLE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REVOKE_VOTER_TITLE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_INVASION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_INVASION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_DIVORCE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_DIVORCE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_EXCOMMUNICATION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_EXCOMMUNICATION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CALL_ALLY_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CALL_ALLY_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+JOINED_WAR_ALLIED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=0
+	priority=0
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+JOINED_WAR_BLOOD_BROTHER=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=0
+	priority=0
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+JOINED_WAR_DEFENSIVE_COALITION=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=0
+	priority=0
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_JOIN_WAR_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_military"
+	close_priority=3
+	interest_priority=3
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_JOIN_WAR_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_military"
+	close_priority=3
+	interest_priority=3
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHARACTER_CONTRACTED_DISEASE=
+{
+	option=no
+	category="cat_other"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISEASE_OUTBREAK=
+{
+	option=no
+	category="cat_other"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_plague_doctor"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_CREATED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_USURPED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_GAINED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_GAINED_JOB=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_GAINED_MINOR=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_GAINED_RELIGIOUS=
+{
+	option=no
+	category="cat_religion"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_GAINED_RELIGIOUS_PLAYER=
+{
+	option=no
+	category="cat_religion"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLEMENT_FINISHED=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRADEPOST_FINISHED=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRADEPOST_FINISHED_NON_REPUBLIC=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_DEATH=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound="character_death"
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_death"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NICKNAME=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CLAIM_LOST=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OTHER_RAISE_OUR_TROOPS=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OTHER_RAISE_OUR_TROOPS_ALL=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OTHER_RAISE_OUR_TROOPS_AND_VASSALS=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REL_HEAD_SUCCESSION=
+{
+	option=no
+	category="cat_religion"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ANTI_POPE_CREATION=
+{
+	option=no
+	category="cat_religion"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ANTI_POPE_CESSATION=
+{
+	option=no
+	category="cat_religion"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TECH_GROWTH=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TECH_GROWTH_PROG=
+{
+	option=no
+	category="cat_government"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TECH_GROWTH_REALM=
+{
+	option=no
+	category="cat_government"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TECH_GROWTH_PROG_REALM=
+{
+	option=no
+	category="cat_government"
+	close_priority=4
+	interest_priority=4
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TECH_GROWTH_PROG_NOMAD_CAPITAL=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+WAR_INVALID=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_battle"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ALLIED_WAR_ENDS=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_battle"
+	retain_priority=yes
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+OTHER_WAR_ENDS=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_battle"
+	retain_priority=yes
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ENEMY_CALLS_IN_ALLY=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RULER_JOINS_ENEMY_WAR=
+{
+	option=no
+	category="cat_military"
+	close_priority=3
+	interest_priority=3
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VASSAL_DEFECTION=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_courier"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+WE_JOIN_A_WAR=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_EXCOM=
+{
+	option=no
+	category="cat_religion"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_bishop"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_EXCOM_LIFTED=
+{
+	option=no
+	category="cat_religion"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_bishop"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_MADE_PRIMARY=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_IMPRISONED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_into_the_dungeon"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_RELEASED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_garden"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_BANISHED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_carriage"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASSIGNED_JOB_ACTION=
+{
+	option=no
+	category="cat_government"
+	close_priority=4
+	interest_priority=4
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_courier"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REBELS_SPAWNED=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_peasants"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DE_JURE_LIEGE_CHANGED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DE_JURE_LIEGE_CHANGED_NONE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TITLE_DESTROYED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_REL_DIVORCED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture="GFX_evt_quarrel"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CHAR_DIVORCED=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture="GFX_evt_quarrel"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PIETY_LAW_PASSED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PRESTIGE_LAW_PASSED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FACTION_CANCELLED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FACTION_CREATED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FACTION_MEMBER_JOINS=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FACTION_MEMBER_LEAVES=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FACTION_LEADERSHIP_CHANGE=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_emissary"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PATRICIAN_DYNASTY_FALLS=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_family_feud_republic"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PATRICIAN_DYNASTY_RISES=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_family_feud_republic"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NEW_DOGE_ELECTED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_doge_republic"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CLAN_FALLS=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CLAN_RISES=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VASSAL_RELEASED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_TO_EMBARGO_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RELEASE_VASSAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PREPARE_INVASION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STARTED_LOOTING=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_burning_house"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STARTED_LOOTING_NAVAL=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_vikings_arriving_oldgods"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+PROVINCE_LOOTED=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLEMENT_LOOTED=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+BUILDING_LOOTED=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+HOLDING_DESTROYED_BY_LOOTING=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRADE_POST_DESTROYED_BY_LOOTING=
+{
+	option=no
+	category="cat_military"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LOOT_SHIP_RETURNED=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_vikings_arriving_oldgods"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+MAKE_CONSORT_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+MAKE_CONSORT_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+TRIBAL_TITLE_DESTROYED=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISMISS_CONSORT_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture="GFX_evt_quarrel"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RETRACT_VASSAL_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+RETRACT_VASSAL_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ABSORB_CLAN_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ABSORB_CLAN_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SPLIT_CLAN_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SPLIT_CLAN_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORM_BLOOD_OATH_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORM_BLOOD_OATH_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLE_FEUD_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+SETTLE_FEUD_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISSOLVE_ALLIANCE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+DISSOLVE_ALLIANCE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VASSAL_RETRACTION=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=2
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STILLBIRTH=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_illness"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_CLAIM_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_FOR_CLAIM_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LIEGE_ENDED_WAR=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LIEGE_ENDED_WAR_PARTICIPATION=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LIEGE_ENDED_OTHER_WAR=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LIEGE_ENDED_OTHER_WAR_PARTICIPATION=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+LOSTNICKNAME=
+{
+	option=no
+	category="cat_dynasty"
+	close_priority=2
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ACHIEVEMENT_GAINED=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=5
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORT_CONSTRUCTION_ABANDONED=
+{
+	option=no
+	category="cat_military"
+	close_priority=1
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_siege"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COALITION_STARTED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COALITION_JOINED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COALITION_LEFT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COALITION_DISSOLVED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORM_ALLIANCE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORM_ALLIANCE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=5
+	interest_priority=1
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NOTIFICATION_EVENT=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=5
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FOCUSABORTED=
+{
+	option=no
+	category="cat_intrigue"
+	close_priority=4
+	interest_priority=1
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_lunatic"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+NON_AGG_PACT_DISSOLVED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=3
+	interest_priority=3
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ALLIANCE_DISSOLVED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCIL_VOTE_WAR_ACCEPT=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCIL_VOTE_FOR=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCIL_VOTE_AGAINST=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCIL_VOTE_ABSTAINED=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=2
+	priority=2
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+BUY_FAVOR_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+BUY_FAVOR_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+CALL_IN_FAVOR_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_government"
+	close_priority=2
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REQUEST_SUPPORT_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+REQUEST_SUPPORT_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_government"
+	close_priority=3
+	interest_priority=3
+	priority=4
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ENFORCEPEACE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STOP_ENFORCE_PEACE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+STOP_ENFORCE_PEACE_INTERACTION_DECLINE=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=1
+	interest_priority=1
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+INTERACTION_FAVOR_FORCED=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=1
+	sound=""
+	letter_event=yes
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VOTE_AS_FAVOR_OWNER=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+VOTE_AS_REQUESTOR=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+COUNCILOR_LAW_CHANGE_IN_LIEGE_REALM=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ALLIANCE_BROKEN=
+{
+	option=no
+	category="cat_government"
+	close_priority=1
+	interest_priority=2
+	priority=5
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture="GFX_evt_council"
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_REALM_PEACE_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+ASK_COUNCIL_POSITION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+FORCE_JOIN_FACTION_INTERACTION_ACCEPT=
+{
+	option=no
+	category="cat_diplomacy"
+	close_priority=2
+	interest_priority=2
+	priority=1
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+MAJOR_PROVINCE_MODIFIER_GAINED=
+{
+	option=no
+	category="cat_other"
+	close_priority=3
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
+MAJOR_PROVINCE_MODIFIER_LOST=
+{
+	option=no
+	category="cat_other"
+	close_priority=3
+	interest_priority=2
+	priority=3
+	sound=""
+	letter_event=no
+	long_character_event=no
+	picture=""
+	retain_priority=no
+	close_pause=no
+	interest_pause=no
+	pausegame=no
+	message_log=no
+}
