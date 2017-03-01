@@ -1,0 +1,34 @@
+{
+  "name": "ck2",
+  "version": "0.0.0",
+  "description": "GFX game configuration format parser. Crusader Kings II | Paradox Interactive",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines" : {
+    "node" : ">=7.6.0"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "upath2": "*"
+  },
+  "optionalDependencies": {
+    "iconv": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/node-ck2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluelovers/node-ck2/issues"
+  },
+  "homepage": "https://github.com/bluelovers/node-ck2#readme"
+}
