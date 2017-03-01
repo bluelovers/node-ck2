@@ -37,7 +37,6 @@ loputousu = {
 		
 		# ?222 ?254 ?208 ?240 ?
 		}
-		}
 `;
 
 let data = ck2.parse(input, options);
