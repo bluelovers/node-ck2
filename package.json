@@ -9,7 +9,9 @@
   "engines" : {
     "node" : ">=7.6.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bluelovers/string-width": "*"
+  },
   "directories": {
     "test": "test"
   },
