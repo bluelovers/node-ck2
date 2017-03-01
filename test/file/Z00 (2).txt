@@ -1,0 +1,36 @@
+# 古兰贝尔
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = grandbell
+religion = r12crusaders
+clear_scripted_personalities = yes
+1433.4.5 = {
+	monarch = {
+		name = "克尔特"
+		birth_date = 1394.1.1
+		dynasty = "巴哈拉"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "蒂娅多拉"
+		monarch_name = "蒂娅多拉"
+		dynasty = "巴哈拉"
+		birth_date = 1414.1.1
+		death_date = 1494.1.1
+		female = yes
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	add_heir_personality = kind_hearted_personality
+}
+1444.11.11 = {
+	add_treasury = 50
+	add_prestige = 27
+}

@@ -1,0 +1,223 @@
+######################################
+# 448	加雷大司教即帝位，成立罗普托帝国
+33333000={
+	name="加雷"
+	dynasty=99998000
+	dna="ghejpdihijj"
+	properties = "0j00b000000"		# 2头发5胡子
+	culture=loputousu 
+	religion=rLoputousu
+	martial=30 diplomacy=30 stewardship=30 intrigue=30 learning=30
+	disallow_random_traits = yes
+	add_trait=mastermind_theologian # 神学的大师
+	add_trait=mystic # 神秘主义者
+	add_trait=genius # 天才
+	add_trait=strong # 强壮
+	add_trait=temperate # 节制
+	add_trait=diligent # 勤奋
+	add_trait=patient # 耐心
+	add_trait=proud # 骄傲
+	add_trait=brave # 勇敢
+	add_trait=cynical # 愤世嫉俗
+	add_trait=ambitious # 野心勃勃
+	add_trait=cruel # 残暴
+	add_trait=zealous # 狂热
+	410.1.1={ birth=yes }
+	500.1.1={ death=yes }
+}
+
+# 648	罗普托帝国灭亡
+
+# 535	皇族麦拉背叛
+33333007 = {
+	name="麦拉"
+	# father=33333002
+	dynasty=99998000	
+	dna="ggaeolnmcpn"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=20 diplomacy=15 stewardship=10 intrigue=10 learning=15
+	disallow_random_traits = yes
+	add_trait=brilliant_strategist # 天才战略家
+	add_trait=duelist # 决斗大师
+	add_trait=chaste # 贞洁
+	add_trait=kind # 和蔼
+	add_trait=trusting # 值得信任
+	add_trait=honest # 诚实
+	add_trait=diligent # 勤奋
+	add_trait=just # 正直
+	505.1.1 = { birth=yes }
+	540.1.1={ death=yes }
+}
+
+
+
+33333015 = {
+	# father=33333014
+	female=yes	
+	name="希琼"
+	dynasty=99998000	
+	dna="ddlawhdeghq"	
+	properties = "0n00000000" 	
+	religion=r12crusaders
+	culture=loputousu 
+	martial=10 diplomacy=5 stewardship=10 intrigue=5 learning=10
+	disallow_random_traits = yes
+	add_trait=mastermind_theologian # 神学的大师
+	add_trait=mystic # 神秘主义者
+	add_trait=fair # 性感
+	add_trait=depressed # 沮丧消沉
+	720.1.1 = { birth=yes }
+	748.1.1={ death=yes }
+}
+
+33333016 = {
+	name="曼夫洛伊"
+	dna="zirlpbzrept"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=50 diplomacy=18 stewardship=50 intrigue=50 learning=50
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=genius # 天才
+add_trait=strong # 强壮
+add_trait=temperate # 节制
+add_trait=diligent # 勤奋
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=brave # 勇敢
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+add_trait=fe153
+	710.1.1 = { birth=yes }
+	778.1.1={ death=yes }
+}
+
+# 桑迪玛	暗黑魔道士，蒙蔽威尔丹（Verdane）的国王巴东入侵古兰贝尔。 
+33333017 = {
+	name="桑迪玛"
+	dna="jgmkkmpopaf"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=15 diplomacy=18 stewardship=15 intrigue=15 learning=15
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+	720.1.1 = { birth=yes 
+	effect = {  	
+		opinion = { modifier = opinion_loyal_servant who = 33333016 years = 10000 } 
+		}
+	}
+	778.1.1={ death=yes }
+}
+
+# 库托索夫（クトゥーゾフ）把守着伊都（イード=Yied）神殿的暗黑司祭。 
+33333018 = {
+	name="库托索夫"
+	dna="bhclbjpbnkn"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=15 diplomacy=18 stewardship=15 intrigue=15 learning=15
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+	723.1.1 = { birth=yes 
+	effect = {  	
+		opinion = { modifier = opinion_loyal_servant who = 33333016 years = 10000 } 
+		}
+	}
+	778.1.1={ death=yes }
+}
+
+# 究达	暗黑司祭，罗普托教团的司教
+33333019 = {
+	name="究达"
+	dna="necegalnnbn"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=15 diplomacy=18 stewardship=15 intrigue=15 learning=15
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+	726.1.1 = { birth=yes 
+	effect = {  	
+		opinion = { modifier = opinion_loyal_servant who = 33333016 years = 10000 } 
+		}
+	}
+	778.1.1={ death=yes }
+}
+
+# 莫利甘	暗黑主教
+33333020 = {
+	name="莫利甘"
+	dna="necegalnnbn"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=15 diplomacy=18 stewardship=15 intrigue=15 learning=15
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+	726.1.1 = { birth=yes 
+	effect = {  	
+		opinion = { modifier = opinion_loyal_servant who = 33333016 years = 10000 } 
+		}
+	}
+	778.1.1={ death=yes }
+}
+
+# 萨加姆	暗黑主教
+33333021 = {
+	name="萨加姆"
+	dna="necegalnnbn"
+	religion=r12crusaders
+	culture=loputousu 
+	martial=15 diplomacy=18 stewardship=15 intrigue=15 learning=15
+	disallow_random_traits = yes
+add_trait=elusive_shadow # 难以捉摸的影子
+add_trait=mystic # 神秘主义者
+add_trait=patient # 耐心
+add_trait=proud # 骄傲
+add_trait=cynical # 愤世嫉俗
+add_trait=ambitious # 野心勃勃
+add_trait=cruel # 残暴
+add_trait=zealous # 狂热
+add_trait=deceitful # 狡诈
+	726.1.1 = { birth=yes 
+	effect = {  	
+		opinion = { modifier = opinion_loyal_servant who = 33333016 years = 10000 } 
+		}
+	}
+	778.1.1={ death=yes }
+}
