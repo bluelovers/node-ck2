@@ -1,0 +1,452 @@
+##########remedy_fe_swapping##########
+
+
+##########remedy_fe_swapping2##########
+
+
+
+##########remedy_fe_swapping3##########
+
+
+
+##########remedy_fe_swapping4##########
+
+
+
+##########remedy_fe_swapping5##########
+
+
+
+##########remedy_fe_swapping6##########
+fe131  = { random = no customizer = no hidden = yes } #ÐÁ¸ñ¶ûµÂ
+fe132  = { random = no customizer = no hidden = yes } #°¬Ë¿ÁÕ
+fe133  = { random = no customizer = no hidden = yes } #ÑÇË¹ÄÂ¶û
+fe134  = { random = no customizer = no hidden = yes } #¿Ë¶ûÌØ
+fe135  = { random = no customizer = no hidden = yes }	#°ÝÂ¡
+fe136  = { random = no customizer = no hidden = yes }	#ÁÖ¸ñ
+fe137  = { random = no customizer = no hidden = yes }	#À×ÆÕÍÐ¶û
+fe138  = { random = no customizer = no hidden = yes }	#À¼¸ñ°ÍÂ³ÌØ
+fe139  = { random = no customizer = no hidden = yes }	#ÑÇ¶ûÎÀË¹
+fe140  = { random = no customizer = no hidden = yes }	#¿ËÂÞµÂ
+fe141  = { random = no customizer = no hidden = yes }	#°¢Èü¶û
+fe142  = { random = no customizer = no hidden = yes }	#À×¿ËË¹
+fe143  = { random = no customizer = no hidden = yes }	#ÇÇ°²
+fe144  = { random = no customizer = no hidden = yes }	#·Æ¶÷
+fe145  = { random = no customizer = no hidden = yes }	#¸Õ¶àÂ³·ò
+fe146  = { random = no customizer = no hidden = yes }	#°¬æÃ
+fe147  = { random = no customizer = no hidden = yes }	#°¬À­
+fe148  = { random = no customizer = no hidden = yes }	#µÙæ«¶àÀ­
+fe149  = { random = no customizer = no hidden = yes }	#°Í¶«
+fe150  = { random = no customizer = no hidden = yes }	#½ð²®Ë¹
+fe151  = { random = no customizer = no hidden = yes }	#ÔúÄ·¿¨
+fe152  = { random = no customizer = no hidden = yes }	#°¬¶ûÌØÏÄ
+fe153  = { random = no customizer = no hidden = yes }	#Âü·òÂåÒÁ
+fe154  = { random = no customizer = no hidden = yes }	#»ôÁÖ
+fe155  = { random = no customizer = no hidden = yes }	#À­¿ËÎ÷Ë¿
+fe156  = { random = no customizer = no hidden = yes }	#À×ÎÄ
+
+
+##########remedy_fe_swapping7##########
+fe157  = { random = no customizer = no hidden = yes }	#Î÷¶ûÎ¬æ«
+fe158  = { random = no customizer = no hidden = yes }	#ÏÄ¿¨¶û
+fe159  = { random = no customizer = no hidden = yes }	#²¼Àò»ùµÂ
+fe160  = { random = no customizer = no hidden = yes }	#µÙ¶û¶ä
+fe161  = { random = no customizer = no hidden = yes }	#ÍÐÀ­°îÌØ
+fe162  = { random = no customizer = no hidden = yes }	#ÂêÄÝÑÅ
+fe163  = { random = no customizer = no hidden = yes }	#ÂÞÄÈ
+fe164  = { random = no customizer = no hidden = yes }	#°²µÂÁÐ
+fe165  = { random = no customizer = no hidden = yes }	#°¢ÒÀ´ï
+fe166  = { random = no customizer = no hidden = yes }	#´ïÄÏ
+fe167  = { random = no customizer = no hidden = yes }	#²¼Â³Ä·
+fe168  = { random = no customizer = no hidden = yes }	#ººÄá°Î
+fe169  = { random = no customizer = no hidden = yes }	#Ï£¶û´ï
+fe170  = { random = no customizer = no hidden = yes }	#·ÆÀò
+fe171  = { random = no customizer = no hidden = yes }
+fe172  = { random = no customizer = no hidden = yes }
+fe173  = { random = no customizer = no hidden = yes }
+fe174  = { random = no customizer = no hidden = yes }
+fe175  = { random = no customizer = no hidden = yes }
+fe176  = { random = no customizer = no hidden = yes }
+fe177  = { random = no customizer = no hidden = yes }
+fe178  = { random = no customizer = no hidden = yes }
+fe179  = { random = no customizer = no hidden = yes }
+fe180  = { random = no customizer = no hidden = yes }
+fe181  = { random = no customizer = no hidden = yes }
+fe182  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping8##########
+fe183  = { random = no customizer = no hidden = yes }
+fe184  = { random = no customizer = no hidden = yes }
+fe185  = { random = no customizer = no hidden = yes }
+fe186  = { random = no customizer = no hidden = yes }
+fe187  = { random = no customizer = no hidden = yes }
+fe188  = { random = no customizer = no hidden = yes }
+fe189  = { random = no customizer = no hidden = yes }
+fe190  = { random = no customizer = no hidden = yes }
+fe191  = { random = no customizer = no hidden = yes }
+fe192  = { random = no customizer = no hidden = yes }
+fe193  = { random = no customizer = no hidden = yes }
+fe194  = { random = no customizer = no hidden = yes }
+fe195  = { random = no customizer = no hidden = yes }
+fe196  = { random = no customizer = no hidden = yes }
+fe197  = { random = no customizer = no hidden = yes }
+fe198  = { random = no customizer = no hidden = yes }
+fe199  = { random = no customizer = no hidden = yes }
+fe200  = { random = no customizer = no hidden = yes }
+fe201  = { random = no customizer = no hidden = yes }
+fe202  = { random = no customizer = no hidden = yes }
+fe203  = { random = no customizer = no hidden = yes }
+fe204  = { random = no customizer = no hidden = yes }
+fe205  = { random = no customizer = no hidden = yes }
+fe206  = { random = no customizer = no hidden = yes }
+fe207  = { random = no customizer = no hidden = yes }
+fe208  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping9##########
+fe209  = { random = no customizer = no hidden = yes }
+fe210  = { random = no customizer = no hidden = yes }
+fe211  = { random = no customizer = no hidden = yes }
+fe212  = { random = no customizer = no hidden = yes }
+fe213  = { random = no customizer = no hidden = yes }
+fe214  = { random = no customizer = no hidden = yes }
+fe215  = { random = no customizer = no hidden = yes }
+fe216  = { random = no customizer = no hidden = yes }
+fe217  = { random = no customizer = no hidden = yes }
+fe218  = { random = no customizer = no hidden = yes }
+fe219  = { random = no customizer = no hidden = yes }
+fe220  = { random = no customizer = no hidden = yes }
+fe221  = { random = no customizer = no hidden = yes }
+fe222  = { random = no customizer = no hidden = yes }
+fe223  = { random = no customizer = no hidden = yes }
+fe224  = { random = no customizer = no hidden = yes }
+fe225  = { random = no customizer = no hidden = yes }
+fe226  = { random = no customizer = no hidden = yes }
+fe227  = { random = no customizer = no hidden = yes }
+fe228  = { random = no customizer = no hidden = yes }
+fe229  = { random = no customizer = no hidden = yes }
+fe230  = { random = no customizer = no hidden = yes }
+fe231  = { random = no customizer = no hidden = yes }
+fe232  = { random = no customizer = no hidden = yes }
+fe233  = { random = no customizer = no hidden = yes }
+fe234  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping10##########
+fe235  = { random = no customizer = no hidden = yes }
+fe236  = { random = no customizer = no hidden = yes }
+fe237  = { random = no customizer = no hidden = yes }
+fe238  = { random = no customizer = no hidden = yes }
+fe239  = { random = no customizer = no hidden = yes }
+fe240  = { random = no customizer = no hidden = yes }
+fe241  = { random = no customizer = no hidden = yes }
+fe242  = { random = no customizer = no hidden = yes }
+fe243  = { random = no customizer = no hidden = yes }
+fe244  = { random = no customizer = no hidden = yes }
+fe245  = { random = no customizer = no hidden = yes }
+fe246  = { random = no customizer = no hidden = yes }
+fe247  = { random = no customizer = no hidden = yes }
+fe248  = { random = no customizer = no hidden = yes }
+fe249  = { random = no customizer = no hidden = yes }
+fe250  = { random = no customizer = no hidden = yes }
+fe251  = { random = no customizer = no hidden = yes }
+fe252  = { random = no customizer = no hidden = yes }
+fe253  = { random = no customizer = no hidden = yes }
+fe254  = { random = no customizer = no hidden = yes }
+fe255  = { random = no customizer = no hidden = yes }
+fe256  = { random = no customizer = no hidden = yes }
+fe257  = { random = no customizer = no hidden = yes }
+fe258  = { random = no customizer = no hidden = yes }
+fe259  = { random = no customizer = no hidden = yes }
+fe260  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping11##########
+fe261  = { random = no customizer = no hidden = yes }
+fe262  = { random = no customizer = no hidden = yes }
+fe263  = { random = no customizer = no hidden = yes }
+fe264  = { random = no customizer = no hidden = yes }
+fe265  = { random = no customizer = no hidden = yes }
+fe266  = { random = no customizer = no hidden = yes }
+fe267  = { random = no customizer = no hidden = yes }
+fe268 = { random = no customizer = no hidden = yes }
+fe269  = { random = no customizer = no hidden = yes }
+fe270  = { random = no customizer = no hidden = yes }
+fe271  = { random = no customizer = no hidden = yes }
+fe272  = { random = no customizer = no hidden = yes }
+fe273  = { random = no customizer = no hidden = yes }
+fe274  = { random = no customizer = no hidden = yes }
+fe275  = { random = no customizer = no hidden = yes }
+fe276  = { random = no customizer = no hidden = yes }
+fe277  = { random = no customizer = no hidden = yes }
+fe278  = { random = no customizer = no hidden = yes }
+fe279  = { random = no customizer = no hidden = yes }
+fe280  = { random = no customizer = no hidden = yes }
+fe281  = { random = no customizer = no hidden = yes }
+fe282  = { random = no customizer = no hidden = yes }
+fe283  = { random = no customizer = no hidden = yes }
+fe284  = { random = no customizer = no hidden = yes }
+fe285  = { random = no customizer = no hidden = yes }
+fe286  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping12##########
+fe287  = { random = no customizer = no hidden = yes }
+fe288  = { random = no customizer = no hidden = yes }
+fe289  = { random = no customizer = no hidden = yes }
+fe290  = { random = no customizer = no hidden = yes }
+fe291  = { random = no customizer = no hidden = yes }
+fe292  = { random = no customizer = no hidden = yes }
+fe293  = { random = no customizer = no hidden = yes }
+fe294  = { random = no customizer = no hidden = yes }
+fe295  = { random = no customizer = no hidden = yes }
+fe296  = { random = no customizer = no hidden = yes }
+fe297  = { random = no customizer = no hidden = yes }
+fe298  = { random = no customizer = no hidden = yes }
+fe299  = { random = no customizer = no hidden = yes }
+fe300  = { random = no customizer = no hidden = yes }
+fe301  = { random = no customizer = no hidden = yes }
+fe302  = { random = no customizer = no hidden = yes }
+fe303  = { random = no customizer = no hidden = yes }
+fe304  = { random = no customizer = no hidden = yes }
+fe305  = { random = no customizer = no hidden = yes }
+fe306  = { random = no customizer = no hidden = yes }
+fe307  = { random = no customizer = no hidden = yes }
+fe308  = { random = no customizer = no hidden = yes }
+fe309  = { random = no customizer = no hidden = yes }
+fe310  = { random = no customizer = no hidden = yes }
+fe311  = { random = no customizer = no hidden = yes }
+fe312  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping13##########
+fe313  = { random = no customizer = no hidden = yes }
+fe314  = { random = no customizer = no hidden = yes }
+fe315  = { random = no customizer = no hidden = yes }
+fe316  = { random = no customizer = no hidden = yes }
+fe317  = { random = no customizer = no hidden = yes }
+fe318  = { random = no customizer = no hidden = yes }
+fe319  = { random = no customizer = no hidden = yes }
+fe320  = { random = no customizer = no hidden = yes }
+fe321  = { random = no customizer = no hidden = yes }
+fe322  = { random = no customizer = no hidden = yes }
+fe323  = { random = no customizer = no hidden = yes }
+fe324  = { random = no customizer = no hidden = yes }
+fe325  = { random = no customizer = no hidden = yes }
+fe326  = { random = no customizer = no hidden = yes }
+fe327  = { random = no customizer = no hidden = yes }
+fe328  = { random = no customizer = no hidden = yes }
+fe329  = { random = no customizer = no hidden = yes }
+fe330  = { random = no customizer = no hidden = yes }
+fe331  = { random = no customizer = no hidden = yes }
+fe332  = { random = no customizer = no hidden = yes }
+fe333  = { random = no customizer = no hidden = yes }
+fe334  = { random = no customizer = no hidden = yes }
+fe335  = { random = no customizer = no hidden = yes }
+fe336  = { random = no customizer = no hidden = yes }
+fe337  = { random = no customizer = no hidden = yes }
+fe338  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping14##########
+fe339  = { random = no customizer = no hidden = yes }
+fe340  = { random = no customizer = no hidden = yes }
+fe341  = { random = no customizer = no hidden = yes }
+fe342  = { random = no customizer = no hidden = yes }
+fe343  = { random = no customizer = no hidden = yes }
+fe344  = { random = no customizer = no hidden = yes }
+fe345  = { random = no customizer = no hidden = yes }
+fe346  = { random = no customizer = no hidden = yes }
+fe347  = { random = no customizer = no hidden = yes }
+fe348  = { random = no customizer = no hidden = yes }
+fe349  = { random = no customizer = no hidden = yes }
+fe350  = { random = no customizer = no hidden = yes }
+fe351  = { random = no customizer = no hidden = yes }
+fe352  = { random = no customizer = no hidden = yes }
+fe353  = { random = no customizer = no hidden = yes }
+fe354  = { random = no customizer = no hidden = yes }
+fe355  = { random = no customizer = no hidden = yes }
+fe356  = { random = no customizer = no hidden = yes }
+fe357  = { random = no customizer = no hidden = yes }
+fe358  = { random = no customizer = no hidden = yes }
+fe359  = { random = no customizer = no hidden = yes }
+fe360  = { random = no customizer = no hidden = yes }
+fe361  = { random = no customizer = no hidden = yes }
+fe362  = { random = no customizer = no hidden = yes }
+fe363  = { random = no customizer = no hidden = yes }
+fe364  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping15##########
+fe365  = { random = no customizer = no hidden = yes }
+fe366  = { random = no customizer = no hidden = yes }
+fe367  = { random = no customizer = no hidden = yes }
+fe368  = { random = no customizer = no hidden = yes }
+fe369  = { random = no customizer = no hidden = yes }
+fe370  = { random = no customizer = no hidden = yes }
+fe371  = { random = no customizer = no hidden = yes }
+fe372  = { random = no customizer = no hidden = yes }
+fe373  = { random = no customizer = no hidden = yes }
+fe374  = { random = no customizer = no hidden = yes }
+fe375  = { random = no customizer = no hidden = yes }
+fe376  = { random = no customizer = no hidden = yes }
+fe377  = { random = no customizer = no hidden = yes }
+fe378  = { random = no customizer = no hidden = yes }
+fe379  = { random = no customizer = no hidden = yes }
+fe380  = { random = no customizer = no hidden = yes }
+fe381  = { random = no customizer = no hidden = yes }
+fe382  = { random = no customizer = no hidden = yes }
+fe383  = { random = no customizer = no hidden = yes }
+fe384  = { random = no customizer = no hidden = yes }
+fe385  = { random = no customizer = no hidden = yes }
+fe386  = { random = no customizer = no hidden = yes }
+fe387  = { random = no customizer = no hidden = yes }
+fe388  = { random = no customizer = no hidden = yes }
+fe389  = { random = no customizer = no hidden = yes }
+fe390  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping16##########
+fe391  = { random = no customizer = no hidden = yes }
+fe392  = { random = no customizer = no hidden = yes }
+fe393  = { random = no customizer = no hidden = yes }
+fe394  = { random = no customizer = no hidden = yes }
+fe395  = { random = no customizer = no hidden = yes }
+fe396  = { random = no customizer = no hidden = yes }
+fe397  = { random = no customizer = no hidden = yes }
+fe398  = { random = no customizer = no hidden = yes }
+fe399  = { random = no customizer = no hidden = yes }
+fe400  = { random = no customizer = no hidden = yes }
+fe401  = { random = no customizer = no hidden = yes }
+fe402  = { random = no customizer = no hidden = yes }
+fe403  = { random = no customizer = no hidden = yes }
+fe404  = { random = no customizer = no hidden = yes }
+fe405  = { random = no customizer = no hidden = yes }
+fe406  = { random = no customizer = no hidden = yes }
+fe407  = { random = no customizer = no hidden = yes }
+fe408  = { random = no customizer = no hidden = yes }
+fe409  = { random = no customizer = no hidden = yes }
+fe410  = { random = no customizer = no hidden = yes }
+fe411  = { random = no customizer = no hidden = yes }
+fe412  = { random = no customizer = no hidden = yes }
+fe413  = { random = no customizer = no hidden = yes }
+fe414  = { random = no customizer = no hidden = yes }
+fe415  = { random = no customizer = no hidden = yes }
+fe416  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping17##########
+fe417  = { random = no customizer = no hidden = yes }
+fe418  = { random = no customizer = no hidden = yes }
+fe419  = { random = no customizer = no hidden = yes }
+fe420  = { random = no customizer = no hidden = yes }
+fe421  = { random = no customizer = no hidden = yes }
+fe422  = { random = no customizer = no hidden = yes }
+fe423  = { random = no customizer = no hidden = yes }
+fe424  = { random = no customizer = no hidden = yes }
+fe425  = { random = no customizer = no hidden = yes }
+fe426  = { random = no customizer = no hidden = yes }
+fe427  = { random = no customizer = no hidden = yes }
+fe428  = { random = no customizer = no hidden = yes }
+fe429  = { random = no customizer = no hidden = yes }
+fe430  = { random = no customizer = no hidden = yes }
+fe431  = { random = no customizer = no hidden = yes }
+fe432  = { random = no customizer = no hidden = yes }
+fe433  = { random = no customizer = no hidden = yes }
+fe434  = { random = no customizer = no hidden = yes }
+fe435  = { random = no customizer = no hidden = yes }
+fe436  = { random = no customizer = no hidden = yes }
+fe437  = { random = no customizer = no hidden = yes }
+fe438  = { random = no customizer = no hidden = yes }
+fe439  = { random = no customizer = no hidden = yes }
+fe440  = { random = no customizer = no hidden = yes }
+fe441  = { random = no customizer = no hidden = yes }
+fe442  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping18##########
+fe443  = { random = no customizer = no hidden = yes }
+fe444  = { random = no customizer = no hidden = yes }
+fe445  = { random = no customizer = no hidden = yes }
+fe446  = { random = no customizer = no hidden = yes }
+fe447  = { random = no customizer = no hidden = yes }
+fe448  = { random = no customizer = no hidden = yes }
+fe449  = { random = no customizer = no hidden = yes }
+fe450  = { random = no customizer = no hidden = yes }
+fe451  = { random = no customizer = no hidden = yes }
+fe452  = { random = no customizer = no hidden = yes }
+fe453  = { random = no customizer = no hidden = yes }
+fe454  = { random = no customizer = no hidden = yes }
+fe455  = { random = no customizer = no hidden = yes }
+fe456  = { random = no customizer = no hidden = yes }
+fe457  = { random = no customizer = no hidden = yes }
+fe458  = { random = no customizer = no hidden = yes }
+fe459  = { random = no customizer = no hidden = yes }
+fe460  = { random = no customizer = no hidden = yes }
+fe461  = { random = no customizer = no hidden = yes }
+fe462  = { random = no customizer = no hidden = yes }
+fe463  = { random = no customizer = no hidden = yes }
+fe464  = { random = no customizer = no hidden = yes }
+fe465  = { random = no customizer = no hidden = yes }
+fe466  = { random = no customizer = no hidden = yes }
+fe467  = { random = no customizer = no hidden = yes }
+fe468  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping19##########
+fe469  = { random = no customizer = no hidden = yes }
+fe470  = { random = no customizer = no hidden = yes }
+fe471  = { random = no customizer = no hidden = yes }
+fe472  = { random = no customizer = no hidden = yes }
+fe473  = { random = no customizer = no hidden = yes }
+fe474  = { random = no customizer = no hidden = yes }
+fe475  = { random = no customizer = no hidden = yes }
+fe476  = { random = no customizer = no hidden = yes }
+fe477  = { random = no customizer = no hidden = yes }
+fe478  = { random = no customizer = no hidden = yes }
+fe479  = { random = no customizer = no hidden = yes }
+fe480  = { random = no customizer = no hidden = yes }
+fe481  = { random = no customizer = no hidden = yes }
+fe482  = { random = no customizer = no hidden = yes }
+fe483  = { random = no customizer = no hidden = yes }
+fe484  = { random = no customizer = no hidden = yes }
+fe485  = { random = no customizer = no hidden = yes }
+fe486  = { random = no customizer = no hidden = yes }
+fe487  = { random = no customizer = no hidden = yes }
+fe488  = { random = no customizer = no hidden = yes }
+fe489  = { random = no customizer = no hidden = yes }
+fe490  = { random = no customizer = no hidden = yes }
+fe491  = { random = no customizer = no hidden = yes }
+fe492  = { random = no customizer = no hidden = yes }
+fe493  = { random = no customizer = no hidden = yes }
+fe494  = { random = no customizer = no hidden = yes }
+
+
+##########remedy_fe_swapping20##########
+fe495  = { random = no customizer = no hidden = yes }
+fe496  = { random = no customizer = no hidden = yes }
+fe497  = { random = no customizer = no hidden = yes }
+fe498  = { random = no customizer = no hidden = yes }
+fe499  = { random = no customizer = no hidden = yes }
+fe500  = { random = no customizer = no hidden = yes }
+fe501  = { random = no customizer = no hidden = yes }
+fe502  = { random = no customizer = no hidden = yes }
+fe503  = { random = no customizer = no hidden = yes }
+fe504  = { random = no customizer = no hidden = yes }
+fe505  = { random = no customizer = no hidden = yes }
+fe506  = { random = no customizer = no hidden = yes }
+fe507  = { random = no customizer = no hidden = yes }
+fe508  = { random = no customizer = no hidden = yes }
+fe509  = { random = no customizer = no hidden = yes }
+fe510  = { random = no customizer = no hidden = yes }
+fe511  = { random = no customizer = no hidden = yes }
+fe512  = { random = no customizer = no hidden = yes }
+fe513  = { random = no customizer = no hidden = yes }
+fe514  = { random = no customizer = no hidden = yes }
+fe515  = { random = no customizer = no hidden = yes }
+fe516  = { random = no customizer = no hidden = yes }
+fe517  = { random = no customizer = no hidden = yes }
+fe518  = { random = no customizer = no hidden = yes }
+fe519  = { random = no customizer = no hidden = yes }
+fe520  = { random = no customizer = no hidden = yes }
