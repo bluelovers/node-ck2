@@ -292,7 +292,7 @@ const self = Object.assign(module.exports, {
 									}
 									else if (_cache.in_value)
 									{
-										let a = self.substr_index(line, _cache_row.lastIndex, m.index - 1);
+										let a = self.substr_index(line, _cache_row.lastIndex, m.index);
 										a = self.parseValue(a);
 
 										_data.data[_cache.key] = a;
