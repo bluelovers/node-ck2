@@ -30,7 +30,13 @@ const self = Object.assign(module.exports, {
 				deep: 0,
 				path: 'root',
 
-				comment: '',
+				comment: [],
+				comment_inline: '',
+
+				in_comment: false,
+
+				i2: 0,
+
 				s: '',
 				empty_line: 0,
 
@@ -51,6 +57,8 @@ const self = Object.assign(module.exports, {
 				let _cache_row = {
 					index: 0,
 					lastIndex: 0,
+
+					in_comment_inline: false,
 				};
 
 				let _do = true;
@@ -66,8 +74,6 @@ const self = Object.assign(module.exports, {
 
 					if (m)
 					{
-						_cache_row.m_last = m;
-
 						switch (m[0])
 						{
 							case '"':
@@ -102,6 +108,7 @@ const self = Object.assign(module.exports, {
 
 										_data.data = _data.data || {};
 										_data.data[_cache.key] = _cache.s;
+
 										_cache.s = '';
 
 										_cache.in_value = false;
@@ -148,6 +155,8 @@ const self = Object.assign(module.exports, {
 								{
 									//_cache.comment += line.substr(_cache_row.index) + "\n"
 
+									let comment = line.substr(m.index);
+
 									if (_cache.in_value)
 									{
 										_cache.s = self.substr_index(line, _cache_row.lastIndex, m.index - 1);
@@ -156,6 +165,31 @@ const self = Object.assign(module.exports, {
 										_cache.in_value = false;
 
 										//console.log(555, m, _cache_row, _cache, _data);
+
+										_cache_row.in_comment_inline = true;
+									}
+									else if (!_data.is_array && _cache_row.m_last && _cache_row.m_last[0] == '"')
+									{
+										_cache_row.in_comment_inline = true;
+									}
+
+									if (_cache_row.in_comment_inline)
+									{
+										if (_cache.comment.length)
+										{
+											_data.comment = _cache.comment;
+										}
+
+										_data.comment_inline[_cache.key] = comment;
+										_cache.comment_inline = comment;
+										_cache.in_comment = false;
+										_cache.comment = [];
+									}
+									else
+									{
+										_cache.in_comment = true;
+
+										_cache.comment.push(comment);
 									}
 
 									_cache_row.lastIndex = regexp.lastIndex = line.length;
@@ -171,8 +205,6 @@ const self = Object.assign(module.exports, {
 								}
 								else
 								{
-
-
 									//console.log(_cache.i, _cache.s)
 
 									if (!_cache.s)
@@ -182,7 +214,8 @@ const self = Object.assign(module.exports, {
 
 										if (_cache.in_value && !data.is_array && /\s/.test(_cache.s))
 										{
-											let a = self.parseValue(_cache.s.split(/\s+/));
+											//let a = self.parseValue(_cache.s.split(/\s+/));
+											let a = self.parseValue(self._array_split(_cache.s));
 
 											if (a.length == 2)
 											{
@@ -191,6 +224,10 @@ const self = Object.assign(module.exports, {
 												_data.data[_cache.key] = a[0];
 
 												_cache.s = a[1];
+											}
+											else if (a.length > 1)
+											{
+												throw '';
 											}
 
 											//console.log(_cache.i, m, _cache.s, _cache_row, _cache);
@@ -211,9 +248,23 @@ const self = Object.assign(module.exports, {
 
 									_cache.in_value = true;
 
+									/*
 									_data.data = _data.data || {};
 
-									_data.data[_cache.key] = null;
+									//_data.data[_cache.key] = null;
+									_data.data[_cache.key] = void(0);
+									*/
+
+									_cache.key = self._data_attr(_data, _cache.key, void(0), {
+
+										new: true,
+										default: {},
+
+										_data: _data,
+										_cache: _cache,
+										data: data,
+										_cache_row: _cache_row,
+									});
 
 									_cache_row.lastIndex = regexp.lastIndex;
 
@@ -239,8 +290,8 @@ const self = Object.assign(module.exports, {
 								{
 									_cache.deep++;
 
-									_cache.path_obj.push(_cache.key);
-									_cache.path = _cache.path_obj.join('/');
+									//_cache.path_obj.push(_cache.key);
+									//_cache.path = _cache.path_obj.join('/');
 
 									if (!_cache.key)
 									{
@@ -283,7 +334,8 @@ const self = Object.assign(module.exports, {
 										 */
 										_data.data = _data.data || [];
 
-										let a = self.substr_index(line, _cache_row.lastIndex, m.index - 1).split(" ");
+										//let a = self.substr_index(line, _cache_row.lastIndex, m.index - 1).split(" ");
+										let a = self._array_split(self.substr_index(line, _cache_row.lastIndex, m.index - 1));
 
 										a = self.parseValue(a);
 
@@ -307,6 +359,19 @@ const self = Object.assign(module.exports, {
 
 									data[_cache.path].data[key] = _data.data;
 
+									/*
+									try
+									{
+										data[_cache.path].data[key] = _data.data;
+									}
+									catch (e)
+									{
+										console.log([m, key, _cache, _cache_row, _data, data]);
+
+										throw e;
+									}
+									*/
+
 									//console.log([m, key, _cache, _cache_row, _data, data]);
 
 									//_data = undefined;
@@ -320,6 +385,8 @@ const self = Object.assign(module.exports, {
 								break;
 						}
 					}
+
+					_cache_row.m_last = m;
 
 					//console.log([m, line, _cache, _cache_row]);
 				}
@@ -359,7 +426,8 @@ const self = Object.assign(module.exports, {
 
 				if (s != '' && _cache.in_value && !_data.is_array)
 				{
-					let s = line.substr(_cache_row.lastIndex).trim();
+					//let s = line.substr(_cache_row.lastIndex).trim();
+					let s = self.substr_index(line, _cache_row.lastIndex);
 
 					//console.log([888, _cache, _cache_row]);
 
@@ -379,7 +447,28 @@ const self = Object.assign(module.exports, {
 				_cache.i++;
 			}
 
+			//console.log(_cache);
+			//console.log(data);
+
 			return data.root.data;
+		},
+
+		_data_attr(o, key, value, temp)
+		{
+			if (temp.new && o.data && key in o.data)
+			{
+				key += '#' + temp._cache.i2;
+
+				temp._cache.i2++;
+			}
+
+			{
+				o.data = o.data || temp.default;
+			}
+
+			o.data[key] = value;
+
+			return key;
 		},
 
 		_array_push(a, b)
@@ -392,6 +481,11 @@ const self = Object.assign(module.exports, {
 			}
 
 			return a;
+		},
+
+		_array_split(s)
+		{
+			return s.split(/[\s\uFEFF\xA0]+/);
 		},
 
 		_parseValue(value)
@@ -442,10 +536,34 @@ const self = Object.assign(module.exports, {
 
 		_new_row(_cache, data)
 		{
+			let _parent = null;
+
+			if (_cache.key)
+			{
+				_parent = data[_cache.path];
+
+				let p = _cache.path_obj.concat(_cache.key).join('/');
+
+				if (p in data)
+				{
+					//_cache.key += '#' + _cache.i;
+
+					//_cache.i2++;
+				}
+
+				_cache.path_obj.push(_cache.key);
+				_cache.path = _cache.path_obj.join('/');
+			}
+
 			let _data = {
 				path: _cache.path_obj.join('/'),
 				data: void(0),
 				_cache: {},
+
+				comment: [],
+				comment_inline: {},
+
+				parent: _parent,
 			};
 
 			data[_data.path] = _data;
