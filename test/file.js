@@ -61,9 +61,11 @@ describe(path_relative(__filename), function ()
 //							console.log(file);
 //							console.log(input);
 //							console.log(data);
-							console.log(output);
+							//console.log(output);
 
 							expect(data).to.deep.equal(data2);
+
+							expect(ck2.equal(data, data2)).to.equal(true);
 						}
 					);
 				});
