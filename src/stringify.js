@@ -78,6 +78,11 @@ const self = Object.assign(module.exports, {
 			return input.join(' ');
 		},
 
+		_parse_key(k)
+		{
+			return k.replace(/#\d+$/g, '');
+		},
+
 		_object_join(input, options, deep)
 		{
 			let not_root = !!deep;
@@ -93,6 +98,8 @@ const self = Object.assign(module.exports, {
 			for (let k in input)
 			{
 				let v = self._stringify(input[k], options, deep) + '';
+
+				k = self._parse_key(k);
 
 				let line = k + ' = ' + v.trim();
 
