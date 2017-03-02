@@ -10,7 +10,7 @@ guiTypes = {
 		horizontalBorder = "0"
 		verticalBorder = ""
 		fullScreen = no
-		Orientation = "UPPER_LEFT"
+		Orientation = "UPPER_LEFT" ### 新建宗教红衣主教
 #		upsound = click
 		
 		iconType = {
