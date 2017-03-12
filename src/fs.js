@@ -2,6 +2,8 @@
  * Created by user on 2017/3/1.
  */
 
+'use strict';
+
 const fs = require('fs');
 const Iconv = require('iconv').Iconv;
 
@@ -34,10 +36,29 @@ const self = Object.assign(module.exports, {
 			return options.to_array ? input.split(/\r\n|\r(?!\n)|\n/) : input;
 		},
 
-		convert_utf8(input, from = ENCODING, to = ENCODING)
+		writeFileSync(file, data, options)
 		{
+			options = self._readFile_options(options);
+			let output = self.iconv(data, options.from, options.to);
+			return fs.writeFileSync(file, output, options);
+		},
+
+		iconv(input, from = ENCODING, to = ENCODING)
+		{
+			if (from == to || !from || !to)
+			{
+				return input;
+			}
+
 			let iconv = new Iconv(from, to);
 			let buffer = iconv.convert(input);
+
+			return buffer;
+		},
+
+		convert_utf8(input, from = ENCODING, to = ENCODING)
+		{
+			let buffer = self.iconv(input, from, to);
 			return buffer.toString(to);
 		},
 
