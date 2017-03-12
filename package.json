@@ -10,7 +10,8 @@
     "node" : ">=7.6.0"
   },
   "dependencies": {
-    "bluelovers/string-width": "*"
+    "bluelovers/string-width": "*",
+    "fast-csv": "*"
   },
   "directories": {
     "test": "test"
@@ -21,7 +22,9 @@
     "upath2": "*"
   },
   "optionalDependencies": {
-    "iconv": "*"
+    "iconv": "*",
+    "bluebird": "*",
+    "upath2": "*"
   },
   "repository": {
     "type": "git",
