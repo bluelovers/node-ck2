@@ -162,6 +162,7 @@ const self = Object.assign(module.exports, {
 										_cache.s = self.substr_index(line, _cache_row.lastIndex, m.index - 1);
 
 										_data.data[_cache.key] = _cache.s;
+										_cache.s = '';
 										_cache.in_value = false;
 
 										//console.log(555, m, _cache_row, _cache, _data);
