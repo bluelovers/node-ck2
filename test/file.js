@@ -11,7 +11,7 @@ const ck2 = require('../src');
 const fs = require('fs');
 const fs2 = require('../src/fs');
 
-describe(path_relative(__filename), function ()
+describe(local_dev.path_relative(__filename), function ()
 	{
 		const ENCODING = 'GBK';
 
@@ -48,7 +48,7 @@ describe(path_relative(__filename), function ()
 
 				_file_.forEach(function (file)
 				{
-					it(path_relative(file), () =>
+					it(local_dev.path_relative(file), () =>
 						{
 							let input = fs2.readFile(file, {
 								from: ENCODING,
