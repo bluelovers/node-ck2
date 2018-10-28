@@ -4,10 +4,10 @@
 
 'use strict';
 
-const local_dev = require('./_local-dev.js');
+const local_dev = require('./_local-dev');
 const path = require('upath2');
 
-const ck2 = require('../src');
+const ck2 = require('../src/index');
 const fs = require('fs');
 const fs2 = require('../src/fs');
 
