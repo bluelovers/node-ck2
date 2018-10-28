@@ -6,11 +6,11 @@
   "scripts": {
     "test": "mocha"
   },
-  "engines" : {
-    "node" : ">=7.6.0"
+  "engines": {
+    "node": ">=7.6.0"
   },
   "dependencies": {
-    "bluelovers/string-width": "*",
+    "string-width": "*",
     "fast-csv": "*"
   },
   "directories": {
