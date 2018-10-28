@@ -7,7 +7,7 @@
 const local_dev = require('./_local-dev');
 const path = require('upath2');
 
-const ck2 = require('../src/index');
+const ck2 = require('..');
 const fs = require('fs');
 const fs2 = require('../src/fs');
 

@@ -4,17 +4,15 @@
 
 'use strict';
 
-const ck2 = require('..');
-const fs = require('fs');
-const fs2 = require('../src/fs');
-const path = require('upath2');
+import ck2 = require('../../index');
+import fs = require('fs-extra');
+import fs2 = require('../../src/fs');
+import path = require('upath2');
 
-var Promise = require("bluebird");
+import Promise = require("bluebird");
 Promise.promisifyAll(fs);
 
-const Iconv = require('iconv').Iconv;
-
-const csv = require('fast-csv');
+import csv = require('fast-csv');
 
 const ENCODING = 'GBK';
 
@@ -33,7 +31,7 @@ let lists = {};
 
 	//let files;
 
-	let files = await fs.readdirAsync(path_gbk);
+	let files = await fs.readdir(path_gbk);
 
 	let ps = [];
 
@@ -57,7 +55,7 @@ let lists = {};
 	//console.log(777, lists);
 
 	{
-		let files = await fs.readdirAsync(path_en);
+		let files = await fs.readdir(path_en);
 
 		await Promise.all(files.map(async (file) => {
 			await load_merge(path.join(path_en, file));
@@ -69,9 +67,9 @@ let lists = {};
 
 })();
 
-async function load_merge(file, encoding)
+async function load_merge(file, encoding?)
 {
-	let CSV_STRING = await fs.readFileAsync(file);
+	let CSV_STRING = await fs.readFile(file);
 
 	let options_csv = {
 		delimiter: ';',
@@ -129,7 +127,7 @@ async function load_merge(file, encoding)
 		arr.push(row);
 	})
 	.on("end", function(){
-		
+
 		let dest = path.join(path_output, path.basename(file))
 
 		//console.log(arr)
@@ -156,7 +154,7 @@ async function load_merge(file, encoding)
 			});
 
 		});
-		
+
 	});
 
 	//console.log(a)
@@ -164,7 +162,7 @@ async function load_merge(file, encoding)
 
 async function load_gbk(file, encoding)
 {
-	let CSV_STRING = await fs.readFileAsync(file);
+	let CSV_STRING = await fs.readFile(file);
 
 	if (encoding != 'ENGLISH')
 	{

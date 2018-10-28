@@ -4,10 +4,10 @@
 
 'use strict';
 
-const LF = "\n";
-const TAB = "\t";
+import { crlf, chkcrlf, LF, CRLF, CR } from 'crlf-normalize';
+import stringWidth = require('string-width');
 
-const stringWidth = require('string-width');
+const TAB = "\t";
 
 const self = Object.assign(module.exports, {
 
@@ -33,10 +33,9 @@ const self = Object.assign(module.exports, {
 			return output;
 		},
 
-		str_length(s)
+		str_length(s): number
 		{
 			return stringWidth(s + '');
-			return s.length;
 		},
 
 		_array_join(input, options, deep)

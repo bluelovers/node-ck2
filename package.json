@@ -1,39 +1,56 @@
 {
   "name": "ck2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "GFX game configuration format parser. Crusader Kings II | Paradox Interactive",
-  "main": "index.ts",
-  "scripts": {
-    "test": "mocha"
-  },
-  "engines": {
-    "node": ">=7.6.0"
-  },
-  "dependencies": {
-    "string-width": "*",
-    "fast-csv": "*"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "upath2": "*"
-  },
-  "optionalDependencies": {
-    "iconv": "*",
-    "bluebird": "*",
-    "upath2": "*"
+  "keywords": [
+    "Crusader",
+    "Crusader Kings",
+    "Crusader Kings II",
+    "Interactive",
+    "Kings",
+    "Paradox",
+    "Paradox Interactive",
+    "conf",
+    "config",
+    "configuration",
+    "format",
+    "game",
+    "gfx",
+    "parser"
+  ],
+  "homepage": "https://github.com/bluelovers/node-ck2#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/node-ck2/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bluelovers/node-ck2.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bluelovers/node-ck2/issues"
+  "author": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "homepage": "https://github.com/bluelovers/node-ck2#readme"
+  "scripts": {
+    "test": "mocha --require ts-node/register"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.24",
+    "@types/fs-extra": "^5.0.4",
+    "@types/yargs": "^12.0.1",
+    "bluebird": "^3.5.2",
+    "crlf-normalize": "^1.0.2",
+    "fast-csv": "^2.4.1",
+    "fs-extra": "^7.0.0",
+    "iconv-jschardet": "^1.0.6",
+    "string-width": "^2.1.1",
+    "upath2": "^2.1.2",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }

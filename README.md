@@ -1,11 +1,12 @@
 # node-ck2
+
 GFX game configuration format parser. Crusader Kings II | Paradox Interactive
 
 `npm install ck2`
 
 this version is very stupid and slow, wellcome rewrite code
 
-```js
+```typescript
 
 const ck2 = require('ck2');
 const assert = require('assert');

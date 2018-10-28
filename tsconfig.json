@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2018",
+
+    "moduleResolution": "node",
+    "allowJs": false,
+
+    //"sourceMap": true,
+    //"inlineSourceMap": true,
+    //"inlineSources": true,
+
+    "declaration": true,
+    "experimentalDecorators": true,
+
+    "allowSyntheticDefaultImports": true,
+
+    "strict": false,
+
+    "resolveJsonModule": true,
+
+    //"forceConsistentCasingInFileNames": true,
+
+    "locale": "zh-TW",
+    "pretty": true,
+
+    "removeComments": true,
+
+//    "baseUrl": ".",
+//    "sourceRoot": ".",
+//    "rootDir": ".",
+//    "outDir": ".",
+
+    "lib": [
+      "es2018"
+    ],
+
+    "traceResolution": true,
+    "newLine": "lf"
+  },
+
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -2,12 +2,11 @@
  * Created by user on 2017/3/10.
  */
 
-const ck2 = require('..');
-const fs = require('fs');
-const fs2 = require('../src/fs');
-const path = require('upath2');
-
-const Iconv = require('iconv').Iconv;
+import ck2 = require('../../index');
+import fs = require('fs');
+import fs2 = require('../../src/fs');
+import path = require('upath2');
+import * as _iconv from 'iconv-jschardet';
 
 const ENCODING = 'GBK';
 
@@ -25,7 +24,6 @@ let output = ck2.stringify(data, {
 	pretty: false,
 });
 
-let iconv = new Iconv('UTF-8', ENCODING);
-let buffer = iconv.convert(output);
+let buffer = _iconv.BufferFrom(output, 'UTF-8', ENCODING)
 
 fs2.writeFileSync(file_output, buffer);

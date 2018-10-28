@@ -3,3 +3,4 @@
 /ck2.iml
 !/test/temp/.gitkeep
 /test/temp/
+bin/*.d.ts
